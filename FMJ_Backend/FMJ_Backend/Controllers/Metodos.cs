@@ -27,7 +27,7 @@ namespace FMJ_Backend.Controllers
             string jsonUsuaria = JsonConvert.SerializeObject(usuaria);
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("ASDSADAS456G6D222GsssaadsadUIOoiuiU555utjiojijijio6666ghgkjhGGHG92H56");
+            var key = Encoding.ASCII.GetBytes("TOKEN");
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]

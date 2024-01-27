@@ -52,7 +52,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateAudience = false,
         ValidateIssuerSigningKey = true,
         ValidIssuer = "FMJ",
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ASDSADAS456G6D222GsssaadsadUIOoiuiU555utjiojijijio6666ghgkjhGGHG92H56"))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TOKEN"))
     };
 });
 
